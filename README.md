@@ -1,2 +1,4 @@
 # GeradorRGB
-Gerador RBG simples.
+Um pequeno gerador RGB simples.
+
+- https://binjmhu.github.io/GeradorRGB/
