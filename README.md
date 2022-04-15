@@ -1,0 +1,2 @@
+# GeradorRGB
+Gerador RBG simples.
