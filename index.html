@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  
+    <title>Gerador RGB</title>
+	<link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Color_icon_blue.svg/1024px-Color_icon_blue.svg.png"/>
+	<script src="js\script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+  
+	<h1 class="titulo">Gerador RGB</h1>
+	
+	<div class="div-data">
+	<p class="texto-div">
+		<script> printarData(); </script>
+	-
+		<script> printarHora(); </script>
+	</p>	
+	</div>
+	
+	<div class="div-sliders">
+	
+		<div class="sliders">
+	
+			<div class="div-sliders-red">
+				<input type="range" min="0" max="255", value="125"
+				step="1" id="vermelho"></input>
+			</div>
+			
+			<div class="div-sliders-green">
+				<input type="range" min="0" max="255", value="125"
+				step="1" id="verde"></input>
+			</div>
+			
+			<div class="div-sliders-blue">
+				<input type="range" min="0" max="255", value="125"
+				step="1" id="azul"></input>
+			</div>
+
+		</div>
+		
+		<div id="colorbox"></div>
+		
+	<span id="saida">rgba(0, 0, 0)</span>
+		
+	</div>
+	
+	<script>cores();</script>
+	
+	<footer>
+		<span class="rodape">Desenvolvido por João Marcos️</span>
+	</footer>
+	
+  </body>
+</html>
